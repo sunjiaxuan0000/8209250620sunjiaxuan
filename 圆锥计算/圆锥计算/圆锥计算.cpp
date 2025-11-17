@@ -6,6 +6,7 @@ int main() {
 	cin >> r;
 	double h;
 	cin >> h;
-	double V=pow(r, 3) * h * 1.0 / 3 * PI;
+	double V=pow(r, 2) * h * 1.0 / 3 * PI;
 	cout << V;
+
 }
